@@ -1,0 +1,41 @@
+{
+  "name": "currency-exchange",
+  "version": "1.0.0",
+  "description": "currency-exchange",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simaskem/currency-exchange.git"
+  },
+  "scripts": {
+    "build": "babel -s inline -d lib src",
+    "start": "nodemon --exec babel-node ./src/index.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "currency",
+    "exchange",
+    "rates",
+    "promise",
+    "convert"
+  ],
+  "author": "aruzmek <aruzmek@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simaskem/currency-exchange/issues"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "node-cache": "^4.2.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/register": "^7.4.4",
+    "jest": "^24.8.0",
+    "nodemon": "^1.19.0"
+  }
+}
