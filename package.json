@@ -1,7 +1,7 @@
 {
-  "name": "currency-exchange",
+  "name": "currency-exchange-rates",
   "version": "1.0.0",
-  "description": "currency-exchange",
+  "description": "currency-exchange-rates",
   "main": "src/index.js",
   "repository": {
     "type": "git",
@@ -19,7 +19,7 @@
     "promise",
     "convert"
   ],
-  "author": "aruzmek <aruzmek@gmail.com>",
+  "author": "aruzmek <aruzmek@yahoo.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/simaskem/currency-exchange/issues"

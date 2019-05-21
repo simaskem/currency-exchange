@@ -1,4 +1,4 @@
-# NodeJS Currency Exchange
+# Currency Exchange Rates
 
 A simple module based on [exchangeratesapi.io](https://exchangeratesapi.io/) API.
 
@@ -20,14 +20,14 @@ Note: the code is now written in ECMAScript 6 modules and placed inside src/ dir
 This package can be installed using npm
 
 ```
-npm install currency-exchange
+npm install currency-exchange-rates
 ```
 
 ### Import
-Import `currency-exchange` methods and use them as Promises.
+Import `currency-exchange-rates` methods and use them as Promises.
 
 ```
-import {convertCurrency, getCurrencyRate, getCurrencyRateList} from 'currency-exchange';
+import {convertCurrency, getCurrencyRate, getCurrencyRateList} from 'currency-exchange-rates';
 ```
 
 ## Usage
