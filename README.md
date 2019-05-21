@@ -20,14 +20,14 @@ Note: the code is now written in ECMAScript 6 modules and placed inside src/ dir
 This package can be installed using npm
 
 ```
-npm install currency-exchange-rates
+npm install currencies-exchange-rates
 ```
 
 ### Import
-Import `currency-exchange-rates` methods and use them as Promises.
+Import `currencies-exchange-rates` methods and use them as Promises.
 
 ```
-import {convertCurrency, getCurrencyRate, getCurrencyRateList} from 'currency-exchange-rates';
+import {convertCurrency, getCurrencyRate, getCurrencyRateList} from 'currencies-exchange-rates';
 ```
 
 ## Usage

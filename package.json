@@ -1,7 +1,7 @@
 {
-  "name": "currency-exchange-rates",
+  "name": "currencies-exchange-rates",
   "version": "1.0.0",
-  "description": "currency-exchange-rates",
+  "description": "currencies-exchange-rates",
   "main": "src/index.js",
   "repository": {
     "type": "git",
