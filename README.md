@@ -3,7 +3,7 @@
 A simple module based on [exchangeratesapi.io](https://exchangeratesapi.io/) API.
 
 ### README
-- [Currency Exchange npm]()
+- [Currency Exchange npm](https://www.npmjs.com/package/currencies-exchange-rates)
 - [Currency Exchange GitHub](https://github.com/simaskem/currency-exchange)
 
 ## Description
