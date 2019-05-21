@@ -2,9 +2,16 @@
 
 A simple module based on [exchangeratesapi.io](https://exchangeratesapi.io/) API.
 
+### README
+- [Currency Exchange npm]()
+- [Currency Exchange GitHub](https://github.com/simaskem/currency-exchange)
+
 ## Description
 ```
 Module provides methods to get currency rates, get an exchange rate of the desired currency, convert currency and even pick from which historical date pick the rates.
+```
+```
+Note: the code is now written in ECMAScript 6 modules and placed inside src/ directory. Temporary build (ECMAScript 5) files are placed under lib/.
 ```
 
 ## Getting started
@@ -23,9 +30,9 @@ Import `currency-exchange` methods and use them as Promises.
 import {convertCurrency, getCurrencyRate, getCurrencyRateList} from 'currency-exchange';
 ```
 
-### Usage
+## Usage
 
-- getCurrencyRateList(base, date)
+### 1. getCurrencyRateList(base, date)
 
 ##### Description
 ```
@@ -47,7 +54,7 @@ or
 getCurrencyRateList('EUR', '2016-06-06')
 ```
 
-- getCurrencyRate(from, to, date)
+### 2. getCurrencyRate(from, to, date)
 
 ##### Description
 ```
@@ -70,7 +77,7 @@ or
 getCurrencyRate('USD', 'EUR', '2016-06-06')
 ```
 
-- convertCurrency(from, to, amount, date)
+### 3. convertCurrency(from, to, amount, date)
 
 ##### Description
 ```
