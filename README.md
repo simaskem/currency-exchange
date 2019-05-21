@@ -1,4 +1,4 @@
-# Currency Exchange Rates
+# Currencies Exchange Rates
 
 A simple module based on [exchangeratesapi.io](https://exchangeratesapi.io/) API.
 
